@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis</title>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+    <script src="{% static 'js/script.js' %}"></script>
+  
+</head>
+<body>
+
+  <div class="logo">
+    <img src="https://evergreenschools.com.ng/wp-content/uploads/2023/05/evergreen_logo.png" alt="logo" class='school-logo'></div>
+  <header>
+    <h1>Welcome to Our School</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="about.html" class="dropdown-btn">About Us</a>
+          <ul class="dropdown">
+            <li><a href="history.html">History</a></li>
+            <li><a href="learning.html">learning</a></li>
+            <li><a href="vision.html">Vision</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <script src="script.js"></script>
+  </header>
+  
+  <img src="{% static 'img/SLIDE-1.gif' %}" alt="our School">
+  
+  <section class="greeting">
+   <div>
+      <h5>GREETINGS</h5>
+      <h1>Welcome to Genesis Schools</h1>
+      <p>Genesis is a co-curricular located in a secure and serene environment. The school draws from the very best of Cambridge, EYFS and Nigerian curricular designed to equip our learning for global competitiveness and future relevance.
+      </p>
+  </div>
+</section> 
+
+<button><a href="address.html">Read More</a></button>
+
+
+
+  <section>
+    <h2 id="vision">Our Vision</h2>
+    <p>Building the future, one student at a time.</p>
+  </section>
+  <footer>
+    <p>© 2024 Genesis International</p>
+  </footer>
+</body>
+</html>

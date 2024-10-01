@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #09503c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+    float: auto;
+  }
+  /* Basic styling for the nav and list */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* background-color: #333; */
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #4CAF50;
+}
+
+/* Dropdown hidden by default */
+nav ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  top: 100%;
+}
+
+nav ul li ul.dropdown li {
+  display: block;
+}
+
+nav ul li ul.dropdown li a {
+  padding: 10px;
+}
+
+/* Show dropdown on hover */
+nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+/* Toggle dropdown for JavaScript */
+.dropdown.show {
+  display: block;
+}
+
+
+  h5{
+    color: rgb(180, 85, 180);
+    padding: auto;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+h1{
+  margin-left: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  /* position: fixed; */
+}
+
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+  }
+
+  section {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0;
+  }
+
+   @media (max-width: 70px) {
+    nav ul {
+      display: none;
+    }
+    nav ul.show {
+      display: block;
+    }
+  } 
+
+  img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  button{
+    padding: 10px;
+    margin-left: 30px;
+  }
+
+  .about-container{
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(243, 246, 248);
+  }
+
+  img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Other values: contain, fill */
+  }
+  
+  .school-logo{
+    float: left;
+    height: 50px;
+    width: 130px;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
